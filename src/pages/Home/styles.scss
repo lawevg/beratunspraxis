@@ -1,0 +1,58 @@
+.mainPage {
+    display: flex;
+    padding: 5% 0 0 5%;
+    hr {
+        background: transparent;
+        margin: 0 0 0.5em 0;
+        padding: 0 0 0.5em 0;
+        border: 0;
+        border-bottom: 1px #d2daa0 solid;
+    }
+    .leftSide {
+        width: 21%;
+        padding: 10px;
+    }
+    .rightSide{
+        width: 79%;
+        .topRight {
+            text-align: left;
+        }
+        .bottom {
+            display: flex;
+            .bottomLeft {
+                width: 240px;
+                text-align: left;
+                h2 {
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: #a3b937; 
+                    margin: 20 0 0.25em 0;
+                }
+                h3 {
+                    font-size: 19px;
+                    font-weight: 700;
+                    color: #a3b937; 
+                    margin-top: 20px;
+                    margin-bottom: 6px;
+                }
+                ul {
+                    margin: 0 0 12px 12px;
+                    padding: 0;
+                    li {
+                        list-style-image: url(/assets/list.png);
+                        text-align: left;
+                        margin-left: 1.5em;
+                        padding: 3px;
+                        line-height: 1.5em;
+                    }
+                }
+            }
+            .bottomRight {
+                padding-top: 50px;
+                img {
+                    margin: 5px 50px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.ueberMich {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 45px 0 0 45px;
+    .leftBar {
+        width: 70%;
+        .title {
+            font-size: 1.7em;
+            font-weight: bold;
+            color: #a3b937;
+            margin: 0 0 0.25em 0;
+            text-align: left;
+        }
+        .list {
+            list-style-image: url(/assets/list.png);
+            text-align: left;
+            margin-left: 1.5em;
+            padding: 10px;
+            line-height: 1.6em;
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+    }
+    .rightBar{
+        width: 30%;
+        padding-top: 40px;
+        .photo {
+            border: 2px rgba(255,255,255,1) solid;
+            box-shadow: 0 0 3px rgb(0 0 0 / 25%);
+        }
+    }
+    

@@ -1,0 +1,29 @@
+.navigator {
+    height: 30px;
+    width: 913px;
+    margin: 0;
+    .nav {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        float:left; /* LTR */
+        font-size:1.3em;
+        font-weight: 700;
+        line-height:1.2em;
+        padding: 0 5px 0 5px;
+        width: 903px;
+        height: 30px;
+        background-color: #f4f6e7;
+       .navLink {
+        color: #79aeb7;
+        text-decoration: none;
+        &.active {
+            color: #a3b937;
+        }
+        &:hover {
+            color: #a3b937;
+        }
+       }
+    }
+}

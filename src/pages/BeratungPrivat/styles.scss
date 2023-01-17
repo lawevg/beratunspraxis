@@ -1,0 +1,42 @@
+.berPrivat {
+    display: flex;
+    padding: 5% 0 0 5%;
+
+    .leftBar {
+        width: 625px;
+        text-align: left;
+       h2 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #a3b937; 
+        margin: 20 0 0.25em 0;
+       }
+        h4 {
+            color: #a3b937; 
+            margin: 0 0 0.25em 0;
+            font-weight: 700;
+            font-size: 16px;
+        }
+    tr {
+        border: 10px solid #dbe79f;  
+    }
+    td {
+        padding: 0.5em;
+        border-bottom: 1px solid #dbe79f;
+    }
+    .borderTable {
+        border-top: 1px solid #dbe79f;
+    }  
+}
+    .rightBar {
+        width: 225px;
+        padding: 60px 20px 10px 10px;
+        img {
+            width: 200px;
+            border: 2px rgba(255,255,255,1) solid;
+            box-shadow: 0 0 3px rgb(0 0 0 / 75%);
+        }
+    }
+} 
+
+
